@@ -19,7 +19,7 @@ Clone & quickly run this app with these steps:
 # 1. Clone this repository
 git clone https://github.com/maelnasir/react-fundamentals-day03
 # 2. Move to the base folder 
-cd react-fundamentals-day02
+cd react-fundamentals-day03
 # 3. Run the install command to get all dependencies
 npm install
 # 4. Run the app. Because it was created using Vite run using:
