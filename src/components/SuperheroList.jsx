@@ -34,7 +34,7 @@ function SuperheroList() {
 
   return (
     <div>
-      <h2>JLA</h2>
+      <h1>JLA</h1>
         {heroes.map(hero => (
             <div className="superherocard" key={hero.id}>
               <img 
@@ -42,7 +42,7 @@ function SuperheroList() {
                 alt={hero.name}
                 loading="lazy"
                 referrerPolicy="no-referrer"/>
-              <h1>{hero.name}</h1>
+              <h1>{hero.name == "Hal Jordan" ? "Green Lantern" : hero.name}</h1>
               <i>{hero.biography?.["full-name"]}</i>
             </div>
         ))}
