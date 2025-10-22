@@ -1,0 +1,15 @@
+.superherocard {
+  border: 1px solid #4e4e4e;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsl(0, 0%, 0%, 0.3);
+  margin: 10px auto;
+  padding: 20px;
+  text-align: center;
+  max-width: 250px;  
+  display: block;
+}
+
+.superherocard:hover { border-color: #fff; }
+.superherocard > h1 { font-size: 30px; line-height: 40px; margin:5px 0; }
+.superherocard > * { display: block; }
+.superherocard > img { max-width:250px; border-radius: 10px; margin: 0 auto; }
