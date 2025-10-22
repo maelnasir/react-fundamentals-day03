@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import { LoaderPinwheel } from 'lucide-react';
+import { Loader, ShieldUser } from 'lucide-react';
 import '../css/superhero.css'
 
 function SuperheroList() {
@@ -30,11 +30,12 @@ function SuperheroList() {
     return () => {};
   }, []);
 
-  if (loading) return <p className="spinwheel"><LoaderPinwheel size={100}/></p>;
-
+  // Best practice is early return and then React exits the component
+  // So else is not required
+  if (loading) return <p className="spinwheel"><Loader size={100}/></p>
   return (
     <div>
-      <h1>JLA</h1>
+      <h1><ShieldUser size={40} /> JLA</h1>
         {heroes.map(hero => (
             <div className="superherocard" key={hero.id}>
               <img 
@@ -47,7 +48,7 @@ function SuperheroList() {
             </div>
         ))}
     </div>
-  );
+  )
 }
 
 export default SuperheroList;
