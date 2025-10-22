@@ -54,7 +54,7 @@ export default function RandomPokemon() {
   };
 
   return (
-    <div style={{ textAlign: "center", padding: 24 }}>
+    <div style={{ textAlign: "center", padding: 24 }}  className="animate__animated animate__bounceInRight">
       <h2>Pokémon Viewer ⚡</h2>
 
       {/* ✅ new input field */}

@@ -34,7 +34,7 @@ function SuperheroList() {
   // So else is not required
   if (loading) return <p className="spinwheel"><Loader size={100}/></p>
   return (
-    <div>
+    <div className="animate__animated animate__slideInRight">
       <h1><ShieldUser size={40} /> JLA</h1>
         {heroes.map(hero => (
             <div className="superherocard" key={hero.id}>
