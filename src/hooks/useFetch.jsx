@@ -1,4 +1,4 @@
-// useFetch.js
+// useFetch.jsx
 import { useEffect, useState } from "react";
 
 export function useFetch(url) {

@@ -10,7 +10,7 @@ Hope it helps you!
 
 ## Pre-requisites
 1) You've learned about Virtual DOM, props, states, useState & event handling.
-2) You're learned about Side Effects, useEffect, Controlled/Uncontrolled Forms, Lifting Up State, Prop Drilling & useContext
+2) You've learned about Side Effects, useEffect, Controlled/Uncontrolled Forms, Lifting Up State, Prop Drilling & useContext
 3) You're ready to learn about Routing, Data Fetching & API Integration & Creating Custom Hooks
 
 ## How to run this app

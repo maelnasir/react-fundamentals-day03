@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { LoaderCircle, ShieldUser } from 'lucide-react';
-import '../css/superhero.css'
+import '../../css/superhero.css'
 
 function SuperheroList() {
   const [heroes, setHeroes] = useState([]);

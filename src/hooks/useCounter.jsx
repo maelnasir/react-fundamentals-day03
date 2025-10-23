@@ -1,4 +1,4 @@
-// useCounter.js
+// useCounter.jsx
 import { useState } from "react";
 
 export function useCounter(initial = 0) {

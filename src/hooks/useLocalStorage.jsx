@@ -1,4 +1,4 @@
-// useLocalStorage.js
+// useLocalStorage.jsx
 import { useEffect, useState } from "react";
 
 export function useLocalStorage(key, initialValue) {
